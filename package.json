@@ -1,0 +1,47 @@
+{
+  "name": "@cookiemonsterteam/cookiemonstershortcuts",
+  "version": "0.1.0",
+  "description": "A mod with shortcuts to be used in the Cookie Clicker game",
+  "keywords": [
+    "mod",
+    "Cookie Clicker",
+    "javascript",
+    "Dashnet",
+    "Orteil"
+  ],
+  "homepage": "https://github.com/CookieMonsterTeam/CookieMonsterShortcuts#readme",
+  "bugs": {
+    "url": "https://github.com/CookieMonsterTeam/CookieMonsterShortcuts/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CookieMonsterTeam/CookieMonsterShortcuts"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Daniël van Noord",
+    "email": "13665637+DanielNoord@users.noreply.github.com"
+  },
+  "main": "dist/cookieMonsterShortcuts.js",
+  "scripts": {
+    "build-dev": "run-s eslint pack-prod",
+    "build-final": "run-s eslint pack-final",
+    "build-test": "webpack",
+    "eslint": "eslint src",
+    "pack-prod": "webpack --env minimize",
+    "pack-final": "webpack --env minimize --env finalfile"
+  },
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "npm-run-all": "^4.1.5",
+    "prettier": "2.3.0",
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "@cookiemonsterteam/cookiemonsterframework": "^0.2.1"
+  }
+}
