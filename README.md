@@ -30,7 +30,7 @@ If you'd rather use the addon as a [userscript](https://en.wikipedia.org/wiki/Us
 
 Any bug or suggestion should be **opened as an issue** [in the repository](https://github.com/CookieMonsterTeam/CookieMonsterShortcuts/issues) for easier tracking. This allows us to close issues once they're fixed.
 
-Before submitting a bug, make sure to give a shot at the latest version of the addon on the `dev` branch. This version can be tested by copying the `cookieMonsterShortcutsDev.js` file of the dev branch into your console. You can also load the dev-version by using `https://cookiemonsterteam.github.io/CookieMonster/dist/cookieMonsterShortcutsDev.js` to load the mod. If the bug is still here, you can submit an issue for it. Please do so by using the bug report template.
+Before submitting a bug, make sure to give a shot at the latest version of the addon on the `dev` branch. This version can be tested by copying the `cookieMonsterShortcutsDev.js` file of the dev branch into your console. You can also load the dev-version by using `https://cookiemonsterteam.github.io/CookieMonsterShortcuts/dist/cookieMonsterShortcutsDev.js` to load the mod. If the bug is still here, you can submit an issue for it. Please do so by using the bug report template.
 
 All suggestions are welcome, even the smallest ones.
 
